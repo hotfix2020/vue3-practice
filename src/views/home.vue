@@ -9,11 +9,14 @@ import axios from '@/utils/axios'
 
 export default defineComponent({
   setup() {
-    axios.get('/users/XPoet').then(res => {
-      console.log(res)
-    }).catch(err => {
-      console.log(err)
-    })
+    axios
+      .get('/users/XPoet')
+      .then((res) => {
+        console.log(res)
+      })
+      .catch((err) => {
+        console.log(err)
+      })
   }
 })
 </script>
