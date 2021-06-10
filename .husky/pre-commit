@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# npm test
+# eslint --fix ./src --ext .vue,.js,.ts # 对所有src目录下的文件执行 eslint --fix
+npx lint-staged # 只针对commit的文件 eslint --fix
