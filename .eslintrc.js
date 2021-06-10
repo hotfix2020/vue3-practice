@@ -13,6 +13,10 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint'],
   rules: {
     'no-console': 'off',
-    'vue/no-multiple-template-root': 'off'
+    'vue/no-multiple-template-root': 'off',
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    'import/no-absolute-path': 'off',
+    'import/no-extraneous-dependencies': 'off'
   }
 }
